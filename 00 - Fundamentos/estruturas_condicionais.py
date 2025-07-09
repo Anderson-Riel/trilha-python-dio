@@ -5,10 +5,8 @@ idade = int(input("Informe sua idade: "))
 
 if idade >= MAIOR_IDADE:
     print("Maior de idade, pode tirar a CHN.")
-
 if idade < MAIOR_IDADE:
     print("Ainda não pode tirar a CNH.")
-
 
 if idade >= MAIOR_IDADE:
     print("Maior de idade, pode tirar a CHN.")
