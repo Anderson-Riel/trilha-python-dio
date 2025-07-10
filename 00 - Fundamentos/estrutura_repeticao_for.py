@@ -3,9 +3,10 @@ VOGAIS = "AEIOU"
 
 
 # Exemplo utilizando um iterável
+print(f"você digitou: {texto.upper()}!")
 for letra in texto:
     if letra.upper() in VOGAIS:
-        print(letra, end="")
+        print(letra, end=" ")
 else:
     print()  # adiciona uma quebra de linha
 
